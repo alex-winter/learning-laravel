@@ -43,3 +43,11 @@ p.error {
 	color: #aa0000;
 	margin: 0 0 10px 0;
 }
+
+ul {
+	list-style: none;
+}
+
+form input[type=checkbox] {
+	display: inline;
+}

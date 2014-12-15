@@ -23,5 +23,7 @@ class AuthController extends Controller {
 				'Invalid credentials were provided.'
 			));
 		}
+
+		return Redirect::route('home');
 	}
 }

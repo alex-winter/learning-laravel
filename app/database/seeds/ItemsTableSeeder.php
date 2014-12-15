@@ -4,6 +4,7 @@ class ItemsTableSeeder extends Seeder {
 	public function run() {
 		DB::table('items')->delete();
 
+		//test data
 		$items = array(
 			array(
 				'owner_id' => 1,

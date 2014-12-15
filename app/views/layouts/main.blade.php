@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Our Todo Application</title>
-		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
 	</head>
 	
 	<body>
